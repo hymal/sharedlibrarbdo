@@ -1,0 +1,8 @@
+package com.apigee.boot
+
+
+enum ConfigType {
+
+   ENV_INFO, ENV_CI_INFO, ORG_INFO, VHOST, APIGEE_MAVEN_OPS, OTHER, API_MULTIBRANCH_CONFIG, ENV_GROUP_INFO
+
+}

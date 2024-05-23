@@ -1,0 +1,1 @@
+mvn archetype:generate -DarchetypeGroupId=com.bdo.apigee.archetype -DarchetypeArtifactId=apigeex-api-pass-through -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=com.bdo.apigee -DartifactId=${params.ApiProxy} -Dpackage=com.bdo.apigee -DApiProxy=${params.ApiProxy} -DinteractiveMode=false
